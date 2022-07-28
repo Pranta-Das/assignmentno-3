@@ -103,14 +103,15 @@
         </div>
         <!-- Banner part end -->
 
-          <!-- Courses part start -->
-          <section>
+        <!-- Courses part start -->
+        <section>
             <h1 class="fs-1 fw-bold text-center">Discover Our Popular
                 Courses</h1>
             <p class="text-center mb-5">It is a long established fact that a reader will be distracted by the readable
                 <br>
-                content of a page when looking at its layout.</p>
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                content of a page when looking at its layout.
+            </p>
+            <div class="row row-cols-1  row-cols-lg-2 ">
                 <!-- 1st Courses -->
                 <div class="card mb-4 me-4 border rounded-3" style="max-width: 540px;">
                     <div class="row g-0 ">
@@ -214,43 +215,110 @@
         </section>
 
         <!-- Courses part end -->
-         <!-- Deals part starts -->
-         <section>
+        <!-- Deals part starts -->
+        <section>
             <div class="card mb-3">
                 <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="./images/working.png" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8 d-flex align-items-center deal-colour">
-                    <div class="card-body ms-3">
-                      <h2 class="">Explore The elearning Institute</h2>
-                      <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the 
-                        majority have suffered alteration in some form, by injected humour, or 
-                        randomised words which don't look even slightly believable. If you are going 
-                        to use a passage of Lorem Ipsum, you need to be sure</p><br>
-                      <p class="card-text">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum 
-                        generators on the Internet tend to repeat predefined</p>
-
-                        <div class="d-flex">
-                            <div class="me-5"><h1>3.2K+</h1>
-                                <p>Online course</p></div>
-                            <div class="me-5"><h1>600+</h1>
-                                <p>Expert member</p></div>
-                            <div><h1>1K+</h1>
-                                <p>Rating & Review</p></div>
-                        </div>
-                        <button type="button" class="btn btn-primary px-5 btn-lg fw-bold text-center">View All</button>
-
+                    <div class="col-md-4">
+                        <img src="./images/working.png" class="img-fluid rounded-start" alt="...">
                     </div>
-                  </div>
+                    <div class="col-md-8 d-flex align-items-center deal-colour">
+                        <div class="card-body ms-3">
+                            <h2 class="">Explore The elearning Institute</h2>
+                            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour, or
+                                randomised words which don't look even slightly believable. If you are going
+                                to use a passage of Lorem Ipsum, you need to be sure</p><br>
+                            <p class="card-text">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                                generators on the Internet tend to repeat predefined</p>
+
+                            <div class="d-flex">
+                                <div class="me-5">
+                                    <h1>3.2K+</h1>
+                                    <p>Online course</p>
+                                </div>
+                                <div class="me-5">
+                                    <h1>600+</h1>
+                                    <p>Expert member</p>
+                                </div>
+                                <div>
+                                    <h1>1K+</h1>
+                                    <p>Rating & Review</p>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-primary px-5 btn-lg fw-bold text-center">View
+                                All</button>
+
+                        </div>
+                    </div>
                 </div>
-              </div>
+            </div>
         </section>
 
         <!-- Deals part end  -->
 
+        <!-- Modal part starts -->
+        <section class="bg-primary mt-5 mb-5 border rounded-3">
+            <div class="lg-d-flex justify-content-between p-5">
+                <div>
+                    <h1 class="text-md-center text-light pb-2">Ready to join?</h1>
+                    <p class="text-light text-md-center">It is a long established fact that a reader will be distracted
+                        by the<br>
+                        readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-md-center">
+                    <button type="button" class="btn btn-light px-5 btn-lg fw-bold text-center " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Registration</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- form start -->
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button trigger modal -->
+
+
+
+            </div>
+        </section>
+        <!-- Modal part end -->
+
     </main>
-    
+
     <!-- script links -->
     <script src="./bootstrap/bootstrap.min.js"></script>
 </body>
